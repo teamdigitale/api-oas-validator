@@ -26,9 +26,9 @@ description:
 
 
       Nella directory
-      [rules/](https://github.com/teamdigitale/api-oas-checker/blob/master/rules)
+      [rules/](https://github.com/italia/api-oas-checker/blob/master/rules)
       ci sono le regole applicate, che vengono poi aggregate nel file
-      [spectral.yml](https://github.com/teamdigitale/api-oas-checker/blob/master/spectral.yml)
+      [spectral.yml](https://github.com/italia/api-oas-checker/blob/master/spectral.yml)
       che è scaricabile ed utilizzabile per integrare le regole nelle proprie
       delivery chain.
 
@@ -37,6 +37,8 @@ description:
     shortDescription: >-
       Questo repository contiene un validatore in-browser che verifica alcune
       delle regole per le API REST indicate nel Modello di Interoperabilità.
+    screenshots:
+      - screenshot.png
 developmentStatus: development
 it:
   conforme:
@@ -70,4 +72,4 @@ platforms:
 releaseDate: "2020-06-16"
 softwareType: standalone/web
 softwareVersion: 0.0.1
-url: "https://github.com/teamdigitale/api-oas-checker"
+url: "https://github.com/italia/api-oas-checker"
